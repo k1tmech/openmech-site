@@ -29,9 +29,15 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{% url 'pages-home' %}">Home</a>
               <a class="nav-item nav-link" href="{% url 'pages-dashboard' %}">Dashboard</a>
-              <a class="nav-item nav-link" href="{% url 'pages-dashboard' %}">Learn</a>
+              <a class="nav-item nav-link" href="{% url 'pages-learn' %}">Learn</a>
+              <a class="nav-item nav-link" href="{% url 'pages-groups' %}">Groups</a>
+              <a class="nav-item nav-link" href="{% url 'pages-blogs' %}">Blog</a>
+              <a class="nav-item nav-link" href="{% url 'pages-forum' %}">Forum</a>
+              <a class="nav-item nav-link" href="{% url 'pages-mechlab' %}">MechLab</a>
+              <a class="nav-item nav-link" href="{% url 'pages-ecosystem' %}">Ecosystem</a>
+              <a class="nav-item nav-link" href="{% url 'pages-about' %}">About</a>
+
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
@@ -42,7 +48,7 @@
         </div>
       </nav>
       <div id="topbanner">
-        <img src = "{% static 'pages/openmech-banner-12.jpg' %}" alt=""/>
+        <img src = "{% static 'pages/openmech-banner.jpg' %}" alt=""/>
       </div>
     </header>
     <main role="main" class="container">
