@@ -22,7 +22,7 @@ def mechlab (request):
     return render (request, 'pages/mechlab.html')
 
 def ecosystem (request):
-    return render (request, 'pages/ecosytem.html')
+    return render (request, 'pages/ecosystem.html')
 
 def groups (request):
     return render (request, 'pages/groups.html')
